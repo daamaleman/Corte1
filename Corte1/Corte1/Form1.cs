@@ -16,5 +16,15 @@ namespace Corte1
         {
             InitializeComponent();
         }
+
+        private void Rsgistro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbNombres_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
