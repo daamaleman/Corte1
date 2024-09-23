@@ -1,5 +1,20 @@
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.csproj.AssemblyReference.cache
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.Form1.resources
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.Properties.Resources.resources
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.csproj.GenerateResource.cache
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\bin\Debug\Corte1.exe.config
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\bin\Debug\Corte1.exe
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\bin\Debug\Corte1.pdb
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.Form1.resources
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.exe
+C:\Users\Lenovo\Desktop\Corte1\Corte1\Corte1\obj\Debug\Corte1.pdb
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\bin\Debug\Corte1.exe.config
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\bin\Debug\Corte1.exe
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\bin\Debug\Corte1.pdb
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.AssemblyReference.cache
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.Form1.resources
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.Properties.Resources.resources
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.GenerateResource.cache
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.csproj.CoreCompileInputs.cache
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.exe
+C:\Users\diede\Desktop\Metodología\Proyectos C#\clone\Corte1\Corte1\Corte1\obj\Debug\Corte1.pdb

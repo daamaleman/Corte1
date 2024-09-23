@@ -7,86 +7,73 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Corte1.Clases;
 
 namespace Corte1
 {
     public partial class Form1 : Form
     {
-        private List<Persona> personas;
+        private Registro registro = new Registro();
 
         public Form1()
         {
             InitializeComponent();
-            personas = new List<Persona>();
+            Ciudades();
+        }
+
+        private void Ciudades()
+        {
+            cmbCiudad.Items.Add("Managua");
+            cmbCiudad.Items.Add("Leon");
+            cmbCiudad.Items.Add("Masaya");
+
+            cmbCiudad.SelectedIndex = 0;
+        }
+
+        private void mostrarEdad_Click(object sender, EventArgs e)
+        {
+            if (registro.ContadorPersonas() == 0)
+            {
+                MessageBox.Show("No hay personas registradas.");
+                return;
+            }
+
+            int ultimoIndice = registro.ContadorPersonas() - 1;
+            Persona personaSeleccionada = registro.MostrarPersonas()[ultimoIndice];
+
+            int edad = Operacion.CalcularEdad(personaSeleccionada);
+            string estado = Operacion.MayorEdad(personaSeleccionada);
+
+            lblMayorEdad.Text = $"{personaSeleccionada.Nombre} es {estado}";
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string nombres = tbNombres.Text;
-            string apellidos = tbApellidos.Text;
-            DateTime fechaNacimiento = dtpFechaNac.Value;
-            string ciudad = cmbCiudad.SelectedItem.ToString();
+            string nombre = tbNombres.Text;
+            string apellido = tbApellidos.Text;
+            DateTime fechaNac = dtpFecha.Value;
+            string ciudad = cmbCiudad.SelectedItem != null ? cmbCiudad.SelectedItem.ToString() : "";
 
-            Persona persona = new Persona(nombres, apellidos, fechaNacimiento, ciudad);
-            personas.Add(persona);
-
-            tbNombres.Clear();
-            tbApellidos.Clear();
-            dtpFechaNac.Value = DateTime.Now;
-            cmbCiudad.SelectedIndex = -1;
-        }
-
-        private void btnMostrarEdad_Click(object sender, EventArgs e)
-        {
-            if (personas.Count > 0)
+            // Validar que los campos no estén vacíos
+            if (nombre.Trim() == "" || apellido.Trim() == "" || ciudad.Trim() == "")
             {
-                Persona ultimaPersona = personas[personas.Count - 1];
-                int edad = CalcularEdad(ultimaPersona.FechaNacimiento);
+                MessageBox.Show("Por favor, complete todos los campos.");
+                return;
+            }
 
-                MessageBox.Show($"La edad de {ultimaPersona.Nombres} {ultimaPersona.Apellidos} es {edad} años.", "Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Crear una nueva persona
+            Persona nuevaPersona = new Persona(nombre, apellido, fechaNac, ciudad);
 
-                if (edad >= 18)
-                {
-                    MessageBox.Show("Es mayor de edad.", "Mayor de Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Es menor de edad.", "Menor de Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+            // Agregar la persona al registro
+            bool agregado = registro.AgregarPersona(nuevaPersona);
+            if (agregado)
+            {
+                MessageBox.Show("Persona agregada.");
             }
             else
             {
-                MessageBox.Show("No hay personas registradas.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("El registro está lleno.");
             }
-        }
-
-        private int CalcularEdad(DateTime fechaNacimiento)
-        {
-            DateTime fechaActual = DateTime.Now;
-            int edad = fechaActual.Year - fechaNacimiento.Year;
-
-            if (fechaActual.Month < fechaNacimiento.Month || (fechaActual.Month == fechaNacimiento.Month && fechaActual.Day < fechaNacimiento.Day))
-            {
-                edad--;
-            }
-
-            return edad;
-        }
-    }
-
-    public class Persona
-    {
-        public string Nombres { get; set; }
-        public string Apellidos { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public string Ciudad { get; set; }
-
-        public Persona(string nombres, string apellidos, DateTime fechaNacimiento, string ciudad)
-        {
-            Nombres = nombres;
-            Apellidos = apellidos;
-            FechaNacimiento = fechaNacimiento;
-            Ciudad = ciudad;
         }
     }
 }
