@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\corte 1\\corte1\\corte1\\models\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\models\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\corte 1\\corte1\\corte1\\models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\corte 1\\corte1\\corte1\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\corte1\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Operacion.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\models\\Operacion.cs",
+              "RelativeDocumentMoniker": "Corte1\\models\\Operacion.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\models\\Operacion.cs",
+              "RelativeToolTip": "Corte1\\models\\Operacion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:53:34.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Registro.cs",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\models\\Registro.cs",
               "RelativeDocumentMoniker": "Corte1\\models\\Registro.cs",
               "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\models\\Registro.cs",
               "RelativeToolTip": "Corte1\\models\\Registro.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:49:11.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\models\\Persona.cs",
               "RelativeDocumentMoniker": "Corte1\\models\\Persona.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Corte1\\models\\Persona.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA4wBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:29:54.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T14:29:54.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\Form1.cs",
               "RelativeDocumentMoniker": "Corte1\\Form1.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Corte 1\\Corte1\\Corte1\\Form1.cs",
               "RelativeDocumentMoniker": "Corte1\\Form1.cs",
